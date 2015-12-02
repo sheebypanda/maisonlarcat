@@ -1,0 +1,38 @@
+{
+  "name": "ngBookingCalendar",
+  "homepage": "https://github.com/jkuri/ngBookingCalendar",
+  "authors": [
+    "Jan Kuri <jkuri88@gmail.com>"
+  ],
+  "description": "AngularJS Availability Bookig Calendar",
+  "main": "src/js/ngBookingCalendar.js",
+  "keywords": [
+    "AngularJS",
+    "Calendar",
+    "Booking",
+    "Availability",
+    "Date"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "moment": "~2.10.3"
+  },
+  "_release": "2ff9cff499",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2ff9cff499f218a0c68ae2003896defd8a1e6109"
+  },
+  "_source": "git://github.com/jkuri/ngBookingCalendar.git",
+  "_target": "*",
+  "_originalSource": "ngBookingCalendar",
+  "_direct": true
+}
