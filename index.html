@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html ng-app="app" lang="fr">
 
 <head>
 
@@ -20,10 +20,10 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="bower_components/ngBookingCalendar/src/css/ngBookingCalendar.css">
+    <link href="css/availability-calendar.css" rel="stylesheet">
 
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -128,16 +128,132 @@
     </section>
 
     <!-- Galerie Section -->
-    <section id="galerie" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+    <section id="galerie" class="carousel slide">
+
+    <!-- Full Page Image Background Carousel Header -->
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#galerie" data-slide-to="0" class="active"></li>
+            <li data-target="#galerie" data-slide-to="1"></li>
+            <li data-target="#galerie" data-slide-to="2"></li>
+            <li data-target="#galerie" data-slide-to="3"></li>
+            <li data-target="#galerie" data-slide-to="4"></li>
+            <li data-target="#galerie" data-slide-to="5"></li>
+            <li data-target="#galerie" data-slide-to="6"></li>
+            <li data-target="#galerie" data-slide-to="7"></li>
+            <li data-target="#galerie" data-slide-to="8"></li>
+            <li data-target="#galerie" data-slide-to="9"></li>
+            <li data-target="#galerie" data-slide-to="10"></li>
+            <li data-target="#galerie" data-slide-to="11"></li>
+            <li data-target="#galerie" data-slide-to="12"></li>
+            <li data-target="#galerie" data-slide-to="13"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/ext/1.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/ext/2.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/ext/3.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/ext/4.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 4</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/ext/5.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 5</h2>
+                </div>
+            </div>
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/int/1.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/int/2.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/int/3.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/int/4.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/int/5.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/int/6.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/int/7.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./img/int/8.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
                 </div>
             </div>
         </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#galerie" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#galerie" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+
+
     </section>
 
     <!-- tarif Section -->
@@ -206,9 +322,13 @@
     <section id="reservation" class="content-section text-center">
         <div class="reservation-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-lg-offset-2" ng-controller="Ctrl as ctrl">
                     <h2>Réservations</h2>
-                    <ng-booking-calendar url="bower_components/ngBookingCalendar/data/example_data.json"></ng-booking-calendar>
+
+                        <div id="calendar"></div>
+
+                    <!-- <ng-booking-calendar locale="fr"  num="6" ></ng-booking-calendar> -->
+
                 </div>
             </div>
         </div>
@@ -219,10 +339,13 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
+                <p>Vous pouvez nous contacter par téléphone au :<br/>
+<a href="tel:0557845004"><i class="fa fa-phone"></i> 05 57 84 50 04<br/></a>
+<a href="tel:0652814753"><i class="fa fa-mobile"></i> 06 52 81 47 53<br/></a>
+ou par mail à l'adresse suivante :</p>
+                <p><a href="mailto:mario-cassol@wanadoo.fr">mario-cassol@wanadoo.fr</a></p>
+
+                <!--<ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
@@ -232,7 +355,7 @@
                     <li>
                         <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
-                </ul>
+                </ul>-->
             </div>
         </div>
     </section>
@@ -256,14 +379,16 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
 
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment-with-locales.min.js"></script>
-    <script src="bower_components/ngBookingCalendar/src/js/ngBookingCalendar.js"></script>
+    <script src="js/availability-calendar.js"></script>
 
     <script>
-    var myApp = angular.module('myApp', ['jkuri.bookingcalendar']);
+    var unavailableDates = [
+        {start: '2015-12-23', end: '2016-01-02'},
+        {start: '2016-02-11', end: '2016-02-15'}
+    ];
+
+    $('#calendar').availabilityCalendar(unavailableDates);
+
     </script>
 
 </body>
