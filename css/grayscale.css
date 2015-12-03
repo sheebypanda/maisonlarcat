@@ -17,7 +17,6 @@ html {
     height: 100%;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -25,23 +24,9 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
-}
-
-p {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-@media(min-width:768px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
 }
 
 a {
@@ -65,7 +50,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
@@ -147,8 +132,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/ariege/2.jpg) no-repeat bottom center scroll;
-    filter: grayscale(0.5) blur(10px);
+    /*background: url(../img/ariege/2.jpg) no-repeat bottom center scroll;*/
+    /*filter: grayscale(0.5) blur(10px);*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -398,9 +383,45 @@ label.ng-binding {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    -webkit-filter: brightness(0.8) contrast(120%);
+      -moz-filter: brightness(0.8) contrast(120%);
+      -o-filter: brightness(0.8) contrast(120%);
+      -ms-filter: brightness(0.8) contrast(120%);
+      filter: brightness(0.8) contrast(120%);
 }
 
 html,
 body {
     height: 100%;
+}
+
+.carousel-caption {
+  /*height:20%;*/
+  left:30%;
+  right:30%;
+  background-color: black;
+  /*text-align:left;*/
+  bottom:100px;
+  padding:10px;
+  -webkit-filter: opacity(0.85);
+    -moz-filter: opacity(0.85);
+    -o-filter: opacity(0.85);
+    -ms-filter: opacity(0.85);
+    filter: opacity(0.85);
+}
+
+ .carousel-caption h1 {
+  text-align: center;
+}
+.carousel-control .icon-next , .carousel-control .icon-prev {
+  font-size:500%;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+#galerie {
+  margin-top: 250px;
 }
