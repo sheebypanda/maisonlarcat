@@ -11,13 +11,11 @@
 
 .availability-calendar-toolbar input {
 	padding: 7px 14px;
-	background: #F5F5F5;
-	background-image: linear-gradient(to bottom, #FFF, #E6E6E6);
-	border: 1px solid #BBB;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-	font-weight: bold;
+	background: #FF5722;
+    border: 1px solid white;
 	cursor: pointer;
 	outline: 0;
+    color:white;
 }
 
 .availability-calendar-toolbar input:first-child {
@@ -34,15 +32,8 @@
 }
 
 .availability-calendar-toolbar input:hover {
-	background: #E5E5E5;
-	background-image: linear-gradient(to bottom, #EEE, #D6D6D6);
+	background: #FF5722;
 }
-
-.availability-calendar-toolbar input:active {
-	background: #D5D5D5;
-	background-image: linear-gradient(to bottom, #DDD, #C6C6C6);
-}
-
 
 /**
  * Calendar table and cells
@@ -55,12 +46,12 @@
 }
 
 .availability-calendar th, .availability-calendar td {
-	border: 1px solid #DDD;
+	border: 1px solid #B6B6B6;
 	padding: 5px;
 }
 
 .availability-calendar td {
-	height: 60px;
+	height: 70px;
 	vertical-align: top;
 	text-align: right;
 }
@@ -73,10 +64,8 @@
 	top: 40%;
 	left: 0;
 	right: -1px;
-	height: 30%;
-	background: #F88;
-	border-top: 1px solid #A33;
-	border-bottom: 1px solid #A33;
+	height: 40%;
+	background: #FF5722;
 }
 
 .availability-calendar .unavailable:last-child div {right: 0}
