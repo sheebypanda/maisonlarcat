@@ -24,7 +24,7 @@ h6 {
 }
 
 a {
-    color: #00BCD4;
+    color: #FF5722;
 }
 
 a:hover,
@@ -41,7 +41,7 @@ a:focus {
     margin-bottom: 0;
     text-transform: uppercase;
     font-family: "Ubuntu",Arial,sans-serif;
-    background-color: rgba(0, 151, 167, 0.6);
+    background-color: rgba(0, 151, 167, 0.8);
     -moz-box-shadow: 0px 5px 15px -5px black;
     -webkit-box-shadow: 0px 5px 15px -5px black;
         box-shadow: 0px 5px 15px -5px black;
@@ -104,7 +104,12 @@ a:focus {
     color: #fff;
 }
 
-.content-section , footer{
+.content-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer {
     padding-top: 200px;
 }
 
@@ -128,21 +133,55 @@ a:focus {
     -o-background-size: cover;
 }
 
-.carousel-control .icon-next , .carousel-control .icon-prev {
-  /*font-size:500%;*/
-}
-
-#galerie {
-  margin-top: 2px;
-}
-
 #intro .carousel-caption h3 , #intro .carousel-caption h1 , #intro .carousel-caption p {
     padding:10px;
 }
 
  .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+
 }
 .carousel-control .icon-prev:before , .carousel-control .icon-next:before {
     content: none;
+}
+
+.navbar-toggle i {
+    color:white;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #FF5722;
+    border-color: #FF5722;
+}
+h5 {
+    margin-bottom: 10px;
+}
+
+#about {
+    background-color: #B2EBF2;
+    color: #212121;
+}
+
+#tarifs {
+    background-color: #0097A7;
+    color: white;
+}
+#tarifs table {
+    color:#212121
+}
+
+#reservation {
+    background-color: #00BCD4;
+    color: #212121;
+}
+
+#reservation h2 , .availability-calendar-toolbar span {
+    color:white;
+}
+
+
+.text-danger {
+    color: #FF5722;
 }

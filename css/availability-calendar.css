@@ -3,7 +3,7 @@
  */
 .availability-calendar-toolbar {
 	padding-bottom: 15px;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	font-weight: bold;
 }
 
@@ -12,7 +12,7 @@
 .availability-calendar-toolbar input {
 	padding: 7px 14px;
 	background: #FF5722;
-    border: 1px solid white;
+    border: 1px solid #B6B6B6;
 	cursor: pointer;
 	outline: 0;
     color:white;
@@ -73,11 +73,11 @@
 .availability-calendar .unavailable .first {
 	left: 0%;
 	border-radius: 6px 0 0 6px;
-	border-left: 1px solid #A33;
+	border-left: 1px solid #B6B6B6;
 }
 
 .availability-calendar .unavailable .last {
 	right: 0%;
 	border-radius: 0 6px 6px 0;
-	border-right: 1px solid #A33;
+	border-right: 1px solid #B6B6B6;
 }
