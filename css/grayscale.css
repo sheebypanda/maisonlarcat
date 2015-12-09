@@ -41,7 +41,7 @@ a:focus {
     margin-bottom: 0;
     text-transform: uppercase;
     font-family: "Ubuntu",Arial,sans-serif;
-    background-color: transparent;
+    background-color: rgba(0, 151, 167, 0.6);
     -moz-box-shadow: 0px 5px 15px -5px black;
     -webkit-box-shadow: 0px 5px 15px -5px black;
         box-shadow: 0px 5px 15px -5px black;
@@ -129,7 +129,7 @@ a:focus {
 }
 
 .carousel-control .icon-next , .carousel-control .icon-prev {
-  font-size:500%;
+  /*font-size:500%;*/
 }
 
 #galerie {
@@ -142,4 +142,7 @@ a:focus {
 
  .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-control .icon-prev:before , .carousel-control .icon-next:before {
+    content: none;
 }
