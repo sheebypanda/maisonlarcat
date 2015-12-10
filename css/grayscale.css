@@ -100,7 +100,7 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
-.navbar-custom .nav li.active a:hover {
+.navbar-custom .nav li.active a:hover , th {
     color: #fff;
 }
 
@@ -109,9 +109,7 @@ a:focus {
     padding-bottom: 100px;
 }
 
-footer {
-    padding-top: 200px;
-}
+
 
 .carousel,
 .item,
@@ -181,7 +179,23 @@ h5 {
     color:white;
 }
 
-
 .text-danger {
     color: #FF5722;
 }
+
+.contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*
+footer {
+    background-image: url("https://maps.googleapis.com/maps/api/staticmap?&zoom=9&size=960x270&scale=2&maptype=roadmap&markers=color:orange%7Clabel:larcat%7C42.7700612,1.6264395&key=AIzaSyDLqWdplrVQwNUB73FcbKv08PalcZSKDHc");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:600px;
+}
+*/
