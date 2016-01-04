@@ -6,6 +6,22 @@ body {
     background-color: #fff;
 }
 
+body:after{
+    display:none;
+    content :
+    url('./img/ext/1.jpg')
+    url('./img/ext/2.jpg')
+    url('./img/ext/3.jpg')
+    url('./img/ext/5.jpg')
+    url('./img/int/01.jpg')
+    url('./img/int/03.jpg')
+    url('./img/int/05.jpg')
+    url('./img/int/04.jpg')
+    url('./img/int/06.jpg')
+    url('./img/int/09.jpg')
+    url('./img/int/12.jpg')
+}
+
 html {
     width: 100%;
     height: 100%;
