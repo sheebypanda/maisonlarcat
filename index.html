@@ -260,7 +260,7 @@
                                     <td></td>
                                 </tr>
                                 <tr class="active">
-                                    <td>Vacances d'été <small>(mois de juin et septembre)</small></td>
+                                    <td>Vacances d'été</td>
                                     <td>480€</td>
                                     <td>900€</td>
                                     <td>1200€</td>
@@ -274,7 +274,7 @@
                                     <td>1300€</td>
                                 </tr>
                                 <tr class="success">
-                                    <td>Basse saison été</td>
+                                    <td>Basse saison été <small>(mois de juin et septembre)</small></td>
                                     <td>300€</td>
                                     <td>550€</td>
                                     <td>800€</td>
@@ -363,7 +363,10 @@
 
     <script>
     var unavailableDates = [
-        {start: '2015-12-23', end: '2016-01-09'}
+        {start: '2015-12-23', end: '2016-01-09'},
+        {start: '2016-02-28', end: '2016-03-02'},
+        {start: '2016-05-01', end: '2016-05-08'},
+        {start: '2016-08-01', end: '2016-08-15'}
     ];
     $('#calendar').availabilityCalendar(unavailableDates);
     </script>
